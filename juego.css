@@ -1,0 +1,52 @@
+body{
+	background-image: url("imagendefondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#juego {
+	position:relative;
+	width:600px;
+	height:600px;
+	border: solid 20px black;
+	background-color: black;
+	background-position:center ;
+	margin:0 auto;
+}
+.pieza{
+	position:absolute;
+	width:200px;
+	height:200px;
+	background-position:center center;
+	outline: 1px #73afe4 solid;
+	background-size: cover;
+	transition: all .5s ease-in-out;
+}
+.container{
+	width:100%;
+	height:100%;
+	min-height: 100%;
+	display:table;
+	position:relative;
+	z-index: 2;
+	margin:0 auto;
+}
+.content{
+	vertical-align: middle;
+	text-align: center;
+	display:table-cell;
+    z-index: 3;
+}
+a{  
+	display:block;
+	width:150px;
+	text-decoration: none;
+	margin:auto auto;
+}
+#juego:hover{
+	font-size: 30px;
+	font-family: 'Vast Shadow', cursive;
+	color:#5342f4;
+	background-image: url("imagenboton.jpg");
+	background-size: cover;
+}
